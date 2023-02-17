@@ -41,7 +41,7 @@
             //handles main button with try-catch
             $(".validate").click(function () {
                 var textValue = $("#json-input").val();
-                if(textValue == ''){return;}
+                if(textValue == ''){alert('Enter a JSON');return;}
 
                 try {
                     var parsed_json = JSON.parse(textValue);

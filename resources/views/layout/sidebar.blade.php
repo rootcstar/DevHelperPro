@@ -5,7 +5,7 @@
         <li class="nav-item">
             <a class="nav-link {{ (Route::currentRouteName() == 'test') ? '' : 'collapsed' }}" href="{{url('/test')}}">
                 <i class="bi bi-dash-circle"></i>
-                <span>TEST</span>
+                <span>TEST PAGE</span>
             </a>
         </li>
         <li class="nav-item">
