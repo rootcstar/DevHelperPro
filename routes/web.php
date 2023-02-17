@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\WebsiteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-
-
-
-
-});
+Route::get('/',[WebsiteController::class, 'get_index'])->name('home');
+Route::get('/json-viewer', [WebsiteController::class, 'get_json_viewer'])->name('json-viewer');
+Route::get('/test', [WebsiteController::class, 'get_test'])->name('test');
