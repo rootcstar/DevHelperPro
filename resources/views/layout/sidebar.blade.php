@@ -22,7 +22,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() == 'json-to-xml-converter') ? '' : 'collapsed' }}" href="{{url('/json-to-xml-converter')}}">
+            <a class="nav-link {{ (Route::currentRouteName() == 'json-xml') ? '' : 'collapsed' }}" href="{{url('/json-xml')}}">
                 <i class="bi bi-dash-circle"></i>
                 <span>JSON and XML Converter Viewer</span>
             </a>

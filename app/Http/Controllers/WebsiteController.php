@@ -17,7 +17,7 @@ class WebsiteController extends Controller
     }
 
     public function json_to_xml_converter(){
-        return view('json-to-xml-converter');
+        return view('json-xml');
     }
 
 
