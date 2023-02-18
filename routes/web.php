@@ -16,4 +16,4 @@ use App\Http\Controllers\WebsiteController;
 Route::get('/',[WebsiteController::class, 'get_index'])->name('home');
 Route::get('/json-viewer', [WebsiteController::class, 'get_json_viewer'])->name('json-viewer');
 Route::get('/test', [WebsiteController::class, 'get_test'])->name('test');
-Route::get('/json-to-xml-converter', [WebsiteController::class, 'json_to_xml_converter'])->name('json-to-xml-converter');
+Route::get('/json-xml', [WebsiteController::class, 'json_to_xml_converter'])->name('json-to-xml-converter');
