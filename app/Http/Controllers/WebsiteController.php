@@ -15,4 +15,10 @@ class WebsiteController extends Controller
     public function get_json_viewer(){
         return view('json-viewer');
     }
+
+    public function json_to_xml_converter(){
+        return view('json-to-xml-converter');
+    }
+
+
 }

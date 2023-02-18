@@ -21,7 +21,12 @@
                 <span>JSON Viewer</span>
             </a>
         </li>
-
+        <li class="nav-item">
+            <a class="nav-link {{ (Route::currentRouteName() == 'json-to-xml-converter') ? '' : 'collapsed' }}" href="{{url('/json-to-xml-converter')}}">
+                <i class="bi bi-dash-circle"></i>
+                <span>JSON to XML Viewer</span>
+            </a>
+        </li>
 
 
     </ul>
