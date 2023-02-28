@@ -17,3 +17,4 @@ Route::get('/',[WebsiteController::class, 'get_index'])->name('home');
 Route::get('/json-viewer', [WebsiteController::class, 'get_json_viewer'])->name('json-viewer');
 Route::get('/test', [WebsiteController::class, 'get_test'])->name('test');
 Route::get('/json-xml', [WebsiteController::class, 'json_to_xml_converter'])->name('json-to-xml-converter');
+Route::get('/json-csv', [WebsiteController::class, 'json_to_csv_converter'])->name('json-to-csv-converter');

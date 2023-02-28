@@ -27,6 +27,12 @@
                 <span>JSON and XML Converter Viewer</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link {{ (Route::currentRouteName() == 'json-csv') ? '' : 'collapsed' }}" href="{{url('/json-csv')}}">
+                <i class="bi bi-dash-circle"></i>
+                <span>JSON to CSV Converter</span>
+            </a>
+        </li>
 
 
     </ul>
