@@ -8,18 +8,16 @@
     <p class="small"><a href="https://codepen.io/JFarrow/pen/CAwyo" target="_blank">CSV to JSON Converter</a>
     <hr />
     <p>Paste Your JSON Here:</p>
-    <textarea class="form-control" id="json" class="text">[{"Id":1,"UserName":"Sam Smith"},
-{"Id":2,"UserName":"Fred Frankly"},
-{"Id":1,"UserName":"Zachary Zupers"}]</textarea>
+    <textarea class="form-control" rows="10" id="json" class="text"></textarea>
     <br />
     <input id="quote" type="checkbox" checked="true" /> Wrap values in double quotes
     <br />
     <input id="labels" type="checkbox" checked="true" /> Include labels in first row
     <br />
-    <button id="convert">Convert to CSV</button>
+    <button class="btn btn-outline-primary" id="convert">Convert to CSV</button>
     &nbsp;&nbsp;
-    <button id="download">Download CSV</button>
-    <textarea class="form-control" id="csv" class="text"></textarea>
+    <button  class="btn btn-outline-primary" id="download">Download CSV</button>
+    <textarea class="form-control" rows="10" id="csv" class="text"></textarea>
     <p>Based on code posted <a href="http://stackoverflow.com/a/4130939/317" target="_blank">here on StackOverflow</a></p>
 
 @endsection
