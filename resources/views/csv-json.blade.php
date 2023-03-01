@@ -4,8 +4,7 @@
 
 @section('content')
 
-    <p id="heading">JSON to CSV Converter</p>
-    <p class="small">CSV to JSON Converter
+    <p id="heading">CSV to JSON Converter</p>
     <hr />
     <p>Paste Your JSON Here:</p>
     <textarea class="form-control" rows="10" id="csv" class="text"></textarea>
