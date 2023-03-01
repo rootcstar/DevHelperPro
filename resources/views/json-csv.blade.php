@@ -18,7 +18,6 @@
     &nbsp;&nbsp;
     <button  class="btn btn-outline-primary" id="download">Download CSV</button>
     <textarea class="form-control" rows="10" id="csv" class="text"></textarea>
-    <p>Based on code posted <a href="http://stackoverflow.com/a/4130939/317" target="_blank">here on StackOverflow</a></p>
 
 @endsection
 
