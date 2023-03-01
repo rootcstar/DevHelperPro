@@ -23,6 +23,8 @@ class WebsiteController extends Controller
     public function json_to_csv_converter(){
         return view('json-csv');
     }
-
+    public function csv_to_json_converter(){
+        return view('csv-json');
+    }
 
 }

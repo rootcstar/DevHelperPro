@@ -18,3 +18,4 @@ Route::get('/json-viewer', [WebsiteController::class, 'get_json_viewer'])->name(
 Route::get('/test', [WebsiteController::class, 'get_test'])->name('test');
 Route::get('/json-xml', [WebsiteController::class, 'json_to_xml_converter'])->name('json-to-xml-converter');
 Route::get('/json-csv', [WebsiteController::class, 'json_to_csv_converter'])->name('json-to-csv-converter');
+Route::get('/csv-json', [WebsiteController::class, 'csv_to_json_converter'])->name('csv-to-json-converter');
