@@ -5,7 +5,7 @@
 @section('content')
 
     <p id="heading">JSON to CSV Converter</p>
-    <p class="small"><a href="https://codepen.io/JFarrow/pen/CAwyo" target="_blank">CSV to JSON Converter</a>
+    <p class="small">CSV to JSON Converter
     <hr />
     <p>Paste Your JSON Here:</p>
     <textarea class="form-control" rows="10" id="csv" class="text"></textarea>
