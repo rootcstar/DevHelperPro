@@ -6,16 +6,16 @@
 
     <p id="heading">CSV to JSON Converter</p>
     <hr />
-    <p>Paste Your JSON Here:</p>
+    <p>Paste Your CSV Here:</p>
     <textarea class="form-control" rows="10" id="csv" class="text"></textarea>
     <br />
     <input id="quote" type="checkbox" checked="true" /> Wrap values in double quotes
     <br />
     <input id="labels" type="checkbox" checked="true" /> Include labels in first row
     <br />
-    <button class="btn btn-outline-primary" id="convert">Convert to CSV</button>
+    <button class="btn btn-outline-primary" id="convert">Convert to JSON</button>
     &nbsp;&nbsp;
-    <button  class="btn btn-outline-primary" id="download">Download CSV</button>
+    <button  class="btn btn-outline-primary" id="download">Download JSON</button>
     <textarea class="form-control" rows="10" id="json" class="text"></textarea>
 
 @endsection
