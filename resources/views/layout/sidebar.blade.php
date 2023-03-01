@@ -34,7 +34,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() == 'json-csv') ? '' : 'collapsed' }}" href="{{url('/json-csv')}}">
+            <a class="nav-link {{ (Route::currentRouteName() == 'csv-json') ? '' : 'collapsed' }}" href="{{url('/csv-json')}}">
                 <i class="bi bi-dash-circle"></i>
                 <span>CSV to JSON Converter</span>
             </a>
