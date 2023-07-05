@@ -93,6 +93,9 @@
 <!-- Template Main JS File -->
 <script src="{{asset('/assets/js/main.js')}}"></script>
 <script src="{{asset('/assets/js/json-viewer/json-viewer.js')}}"></script>
+<script src="{{asset('/assets/js/x2js/x2js.js')}}"></script>
+
+<script src="{{asset('/assets/js/x2js/vkbeautify.js')}}"></script>
 @yield('scripts')
 
 </body>
